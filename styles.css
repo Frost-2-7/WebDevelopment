@@ -1,0 +1,31 @@
+body {
+    background: #000000;
+    color: white;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #000000;
+    color: white;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 80px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%, -35%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 30px;
+}
